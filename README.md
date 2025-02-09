@@ -2,8 +2,6 @@
 
 GrammarPro is a professional grammar and proofreading web application powered by Google's Gemini AI. It provides instant, accurate suggestions to improve your writing with advanced AI technology.
 
-![GrammarPro Screenshot](https://images.unsplash.com/photo-1455390582262-044cdead277a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80)
-
 ## Features
 
 - **Advanced AI Technology**: Powered by Google's Gemini AI for context-aware suggestions
