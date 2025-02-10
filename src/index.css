@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes border-flow {
+  0% {
+    border-color: rgba(99, 102, 241, 0.5);
+  }
+  50% {
+    border-color: rgba(147, 51, 234, 0.5);
+  }
+  100% {
+    border-color: rgba(99, 102, 241, 0.5);
+  }
+}
+
+.animate-gradient {
+  animation: gradient 6s linear infinite;
+}
+
+.animate-border {
+  animation: border-flow 3s infinite;
+}
